@@ -5,6 +5,7 @@ RUN_PROFILE = {"ratio": 9 / 5, "offset": 32}
 
 
 def celsius_to_fahrenheit(c):
+    """Convert Celsius to Fahrenheit."""
     return c * RUN_PROFILE["ratio"] + RUN_PROFILE["offset"]
 
 
