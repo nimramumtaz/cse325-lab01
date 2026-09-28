@@ -9,9 +9,6 @@ def celsius_to_fahrenheit(c):
 
 
 if __name__ == "__main__":
-    c = float(input("Celsius: "))
-    print(f"{c}C = {celsius_to_fahrenheit(c)}F")
-if __name__ == "__main__":
     try:
         c = float(input("Celsius: "))
         print(f"{c}C = {celsius_to_fahrenheit(c)}F")
